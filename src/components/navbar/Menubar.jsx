@@ -20,7 +20,7 @@ const Menubar = () => {
 
         {/* Logo */}
         <div className='text-white text-xl'>
-          EatEase
+          Angan
         </div>
 
         <div className="relative flex items-center rounded-3xl w-full sm:w-40 md:w-48 lg:w-60 bg-white p-2">
