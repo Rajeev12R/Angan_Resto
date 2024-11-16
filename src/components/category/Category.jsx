@@ -19,7 +19,7 @@ const Category = () => {
             <img src={img} alt={`Food Category ${index + 1}`} className="w-full h-full object-cover rounded-lg" />
 
             {/* Transparent overlay */}
-            <div className="absolute inset-0 bg-black opacity-40 rounded-lg group-hover:bg-gradient-to-t group-hover:from-gray-900 group-hover:via-gray-800 group-hover:to-black group-hover:opacity-80 transition duration-300"></div>
+            <div className="absolute inset-0 bg-black opacity-40 rounded-lg group-hover:bg-gradient-to-t group-hover:from-gray-900 group-hover:via-gray-800 group-hover:to-black group-hover:opacity-60 transition duration-300"></div>
 
             {/* Category Name */}
             <div className="absolute top-2 left-1/2 transform -translate-x-1/2 text-white text-sm font-semibold z-10 group-hover:translate-y-2 group-hover:scale-105 transition duration-300">
