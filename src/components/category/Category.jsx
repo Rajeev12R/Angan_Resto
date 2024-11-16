@@ -1,6 +1,6 @@
 import React from 'react';
 import './category.css'
-import img1 from '../../assets/categoryImg/coffee.avif';
+import img1 from '../../assets/categoryImg/coffee.png';
 import img2 from '../../assets/categoryImg/Literally Pink Sauce Pasta.jpg';
 import img3 from '../../assets/categoryImg/Penne Arrabiata.jpg';
 import img4 from '../../assets/categoryImg/Pesto alla Genovese.jpg';
