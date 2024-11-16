@@ -7,12 +7,12 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 const Menubar = () => {
   // State to control dropdown visibility
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  
+
   // Toggle dropdown visibility
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
-  
+
   return (
     <nav className='h-20 w-[90%] mx-auto flex items-center justify-between relative'>
       {/* Left Side: Menu Icon and Logo */}
@@ -23,17 +23,18 @@ const Menubar = () => {
           EatEase
         </div>
 
-        <div className="relative flex items-center rounded-3xl bg-white p-2">
+        <div className="relative flex items-center rounded-3xl w-full sm:w-40 md:w-48 lg:w-60 bg-white p-2">
           <BsSearch className="text-[#66db34] text-xl absolute right-4" />
           <input
             type="text"
             placeholder="Search"
-            className="pl-8 pr-2 py-1 rounded-3xl bg-white text-gray-700 w-42 focus:outline-none"
+            className="pl-5 pr-8 py-1 rounded-3xl bg-white text-gray-700 w-full focus:outline-none sm:text-xs md:text-base"
           />
         </div>
 
+
       </div>
-      
+
 
       {/* Right Side: Cart and Notification Icons */}
       <div className='flex items-center space-x-2'>
